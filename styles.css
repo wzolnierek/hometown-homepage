@@ -1,0 +1,142 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+
+
+#hero {
+    background-image: url(./images/wroclaw.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-title {
+    margin-top: 20px;
+    background: #C36F09;
+    color: white;
+    text-shadow: 0 0 1px black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 40px;
+}
+
+#hero-desc {
+    background: #EEBA0B;
+    color: white;
+    text-shadow: 0 0 2px black;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+#activities {
+    background: #EAE599;
+    padding: 20px;
+    color: #710000;
+    font-size: 20px;
+}
+
+#activity-topic {
+    margin: 20px 0 50px;
+    
+}
+
+.activity-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#img1A {
+    background-image: url(./images/panorama.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+#img2A {
+    background-image: url(./images/rynek.jpg);
+    background-size: cover;
+}
+#img3A {
+    background-image: url(./images/halastulecia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img1A:hover {
+    background-image: url(./images/panorama-inside.jpg);
+    background-size: cover;
+}
+
+#img2A:hover {
+    background-image: url(./images/rynek-night.jpg);
+    background-size: cover;
+}
+#img3A:hover {
+    background-image: url(./images/hala-inside.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+
+.activity-card {
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#activity-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.activity-desc {
+    width: 250px;
+}
+
+h2 {
+    color: #710000;
+    margin: 30px auto 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#guide {
+    border-bottom: 8px solid #A63C06;
+    border-radius: 20px;
+    background: #C36F09;
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 50px;
+    padding: 20px 10px;
+}
+#guide-text {
+
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#guide-img {
+    width: 200px;
+    border-radius: 10%;
+}
